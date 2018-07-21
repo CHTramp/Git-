@@ -2,7 +2,6 @@
 # 导入库
 # 库：封装一些功能
 # math:数学相关的库
-
 import  math
 import  random
 
