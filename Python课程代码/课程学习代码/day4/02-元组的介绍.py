@@ -52,3 +52,12 @@ print(str3)
 tup = tuple(list3)
 print(tup)
 
+
+tup_num = (1,2,3,4,5)
+*m,n = tup_num # *m代表的是把前面的都赋值给m，以列表的形式，而n则去的是最后一个
+print(m,n)
+
+m,*n = tup_num # 第一个元素赋值给m，剩下的都赋值给n
+print(m,n)
+
+

@@ -103,3 +103,8 @@ list7 = [1,2,3]
 list8 = list7.__add__([5,6])
 print(list8)
 print(list7)
+
+# 列表.sort（）对列表进行升序排列（和reverse一起使用，可以实现列表的从大到小排列）
+list_num = [1,2,3,4,5,6]
+list_num.sort(reverse=True)
+print(list_num)

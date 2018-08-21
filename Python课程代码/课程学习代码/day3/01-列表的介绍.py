@@ -26,6 +26,11 @@ num4 = list1[2:4]
 print(num4)
 
 
+num_list = list(i for i in range(0,5))
+print(num_list)
+
+list2 = list(i for i in range(0,20) if i%6==0)
+print(list2)# for前面的i不要忘记,否则会报错 invalid syntax(无效代码）
 
 
 
